@@ -11,13 +11,13 @@ body {
 }
 
 fieldset {
-    border: solid 1px #1c75c9;
+    border: solid 1px #328adc;
 }
 
 .legend {
     font-family: 'comic', sans-MS;
     letter-spacing: 4px;
-    color: #1c50c9;
+    color: #4b79e3;
     font-size: 20px;
 }
 
@@ -52,11 +52,11 @@ textarea {
 }
 
 .bordergreen:hover {
-    border: solid 2px #1c4dc9;
+    border: solid 2px #426edf;
 }
 
 .bordergreen:focus, textarea:focus {
-    border: solid 2px #1c6ac9;
+    border: solid 2px #3988e9;
 }
 
 form {
@@ -100,7 +100,7 @@ button {
 }
 
 button:hover, button:focus {
-    border-color: rgba(9, 90, 252, 0.8);
+    border-color: rgba(65, 125, 244, 0.8);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
     outline: 0 none;
 }
