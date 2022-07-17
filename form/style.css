@@ -1,6 +1,6 @@
 body {
     position: relative;
-    background-image: url(https://s1.1zoom.me/big3/811/Winter_Sunrises_and_507089.jpg);
+    background-image: url(https://pbs.twimg.com/card_img/1546847207436992515/V6bO9b5c?format=jpg&name=large);
     backdrop-filter: blur(0px);
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,13 +11,13 @@ body {
 }
 
 fieldset {
-    border: solid 1px #328adc;
+    border: solid 1px #3e90dd;
 }
 
 .legend {
     font-family: 'comic', sans-MS;
     letter-spacing: 4px;
-    color: #4b79e3;
+    color: #5484f5;
     font-size: 20px;
 }
 
@@ -52,11 +52,11 @@ textarea {
 }
 
 .bordergreen:hover {
-    border: solid 2px #426edf;
+    border: solid 2px #5d87f3;
 }
 
 .bordergreen:focus, textarea:focus {
-    border: solid 2px #3988e9;
+    border: solid 2px #5c9ff1;
 }
 
 form {
@@ -100,7 +100,7 @@ button {
 }
 
 button:hover, button:focus {
-    border-color: rgba(65, 125, 244, 0.8);
+    border-color: rgba(110, 155, 244, 0.8);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
     outline: 0 none;
 }
@@ -129,7 +129,7 @@ input[type='radio']::before {
     border-radius: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    border: 2px solid #2ac91c;
+    border: 2px solid #1c64c9;
 }
 
 input[type='radio']:checked::after {
