@@ -52,18 +52,18 @@ body {
 }
 
 .card:nth-child(1) {
-    background: linear-gradient(to left, #b2ea91, #86a8e7, #7f7fd5);
+    background: linear-gradient(to left, #b2ea91, #86a8e7, #d5ae7f);
 }
 
 .card:nth-child(2) {
-    background: linear-gradient(to left, #fc3f68, #ff464a, #ff2bff);
+    background: linear-gradient(to left, #fc3f68, #ff464a, #322bff);
     width: 260px;
     height: 410px;
     top: 40px;
 }
 
 .card:nth-child(3) {
-    background: linear-gradient(to left, #0170b1, #49bc6d, #90c23c);
+    background: linear-gradient(to left, #0170b1, #49bc6d, #a93cc2);
 }
 
 .card .plan::before, .card .plan::after {
@@ -95,15 +95,15 @@ body {
 }
 
 .price-basic::before {
-    content: "$20"
-}
-
-.price-awesome::before {
     content: "$50"
 }
 
+.price-awesome::before {
+    content: "$99"
+}
+
 .price-premium::before {
-    content: "100"
+    content: "150"
 }
 
 .price-basic::before, .price-awesome::before, .price-premium::before {
